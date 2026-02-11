@@ -1,0 +1,41 @@
+body {
+  background: #f7f7fb;
+}
+
+.chat-shell {
+  max-width: 1100px;
+  margin: 30px auto;
+}
+
+.messages {
+  height: 420px;
+  overflow-y: auto;
+  background: #fff;
+  border: 1px solid #e8e8ef;
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.msg {
+  padding: 8px 10px;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  border: 1px solid #eee;
+}
+
+.msg .meta {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 2px;
+}
+
+.msg.me {
+  border-color: #dce7ff;
+  background: #f3f7ff;
+}
+
+.typing {
+  font-size: 12px;
+  color: #666;
+  min-height: 18px;
+}
